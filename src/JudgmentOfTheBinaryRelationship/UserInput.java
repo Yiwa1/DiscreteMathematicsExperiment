@@ -38,7 +38,6 @@ public class UserInput {
          * @Author B20070532
          * @DATE 2021/11/17
          * */
-
         //判断是否具有自反性
         boolean isCertain=true;
         for(int i=0;i< relation.length;i++){

@@ -207,7 +207,6 @@ public class UserInput {
             }
 
             //主合取范式
-
             System.out.println("该合式公式的主合取范式为:");
             sb=new StringBuffer();
             for(int i=0;i<trueTable.length;i++){
