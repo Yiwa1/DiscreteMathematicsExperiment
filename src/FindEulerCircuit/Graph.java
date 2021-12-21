@@ -18,10 +18,10 @@ public class Graph {
 
     public boolean DFSGraph(int[][] graph){
         boolean flag=false;
-        int[] visited=new int[graph.length];
         for(int i=0;i< graph.length;i++) {
             //连通分量自增
             ConnectedComponent++;
+            int[] visited=new int[graph.length];
             DFS(graph, visited, i);
             int sum = Arrays.stream(visited).sum();
             if (sum == graph.length) {
